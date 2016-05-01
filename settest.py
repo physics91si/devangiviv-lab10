@@ -27,10 +27,7 @@ print(A.size(), B.size(), C.size())
 #test the union, intersection, and subtract functions
 D = sets.Set([2,4,6,8,10])
 E = sets.Set([1,2,3,4,5,6,7,8,9,10])
-union = D | E
-intersection = D & E
-difference = E - D
-print("union", union)
-print("intersection", intersection)
-print("difference", difference)
+print(D | E)
+print(D & E)
+print(E - D)
 
